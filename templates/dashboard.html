@@ -1,0 +1,42 @@
+<!-- templates/dashboard.html -->
+
+{% extends "layout.html" %}
+
+{% block title %}Detailed Report{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Detailed Report and Visualizations</h2>
+    
+    <!-- Network Graph -->
+    <div id="network-graph" class="mt-4">
+        <h3>Entity Relationships</h3>
+        <div id="networkGraphContainer" style="height: 500px;"></div>
+    </div>
+    
+    <!-- Financial Charts -->
+    <div id="financial-charts" class="mt-4">
+        <h3>Financial Overview</h3>
+        <canvas id="revenueExpensesChart"></canvas>
+        <canvas id="netAssetsChart" class="mt-4"></canvas>
+    </div>
+    
+    <!-- Additional Analysis -->
+    <div id="analysis-summary" class="mt-4">
+        <h3>Analysis Summary</h3>
+        <pre id="analysisSummary"></pre>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <!-- Load necessary JS libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Load Chart.js for charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Load Vis.js for network graphs -->
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- Link to dashboard.js script -->
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

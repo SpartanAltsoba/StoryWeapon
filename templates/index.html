@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <!-- Additional CSS or JS specific to index.html -->
+    <!-- For example, custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block content %}
+    <h1>17thSCOG</h1>
+    <h2>Knowledge + Action = Power</h2>
+    <h3>Special Citizen Operations Group</h3>
+    <p>Holding Government Accountable</p>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <!-- Additional scripts specific to index.html -->
+    <!-- For example, custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}

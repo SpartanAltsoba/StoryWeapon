@@ -1,0 +1,65 @@
+schema:
+  general_info:
+    ein: ""
+    name: ""
+    tax_year: ""
+    gross_receipts: 0
+    primary_purpose: ""
+  financial_data:
+    total_revenue: 0
+    total_expenses: 0
+    net_assets:
+      start_of_year: 0
+      end_of_year: 0
+  board_members:
+  - name: ""
+    title: ""
+    compensation: 0
+  grants:
+    paid:
+    - recipient: ""
+      amount: 0
+      purpose: ""
+    received:
+    - source: ""
+      amount: 0
+      purpose: ""
+  related_entities:
+  - name: ""
+    ein: ""
+    relationship: ""
+    transactions:
+    - type: ""
+      amount: 0
+  lobbying_data:
+    grassroots_lobbying:
+      amount: 0
+      nontaxable_amount: 0
+    direct_lobbying:
+      amount: 0
+      nontaxable_amount: 0
+    total_lobbying:
+      amount: 0
+      excess_lobbying: 0
+  visualization_data:
+    network_graph:
+      nodes: []
+      edges: []
+    bar_chart:
+      revenue_vs_expenses: []
+      assets_over_time: []
+  analysis_summary:
+    red_flags:
+      high_compensation: []
+      grant_concentration: []
+      large_transactions: []
+      excessive_lobbying: []
+    financial_health:
+      assets_liabilities_discrepancy: false
+      net_assets_trend: ""
+    potential_conflicts: []
+prompts:
+  data_extraction_prompt: |
+    Extract and return the required data from the following IRS Form 990 text, strictly following the provided JSON schema. Ensure all data is cleaned and normalized.
+
+    Your output should be a JSON object that strictly adheres to the schema above. Do not add any explanations or extraneous text.

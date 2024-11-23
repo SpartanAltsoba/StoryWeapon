@@ -1,0 +1,247 @@
+/* static/css/styles.css */
+
+/* ===== Importing Custom Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap');
+
+/* ===== Global Styles ===== */
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #e0e0e0;
+    background-size: cover;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(15, 15, 15, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 10px #f71606;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+/* Neon Glow for Headers */
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #f71606;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    text-shadow: 0 0 15px #f71606, 0 0 20px #f71606;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+/* ===== Navigation Bar ===== */
+
+nav {
+    background: linear-gradient(90deg, #e9e5e5, #1a1a1a);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #f71606;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav li a {
+    color: #e0e0e0;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s, box-shadow 0.3s;
+    font-weight: bold;
+    position: relative;
+    font-size: 1.1em;
+}
+
+nav li a:hover {
+    color: #f71606;
+    text-shadow: 0 0 10px #f71606;
+}
+
+/* Animated Underline Effect */
+nav li a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: #f71606;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+nav li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Logo Styling */
+
+nav ul li.logo {
+    margin-right: auto;
+}
+
+nav ul li.logo img {
+    height: 50px;
+    filter: drop-shadow(0px 0px 30px #f71606);
+    transition: transform 0.5s ease-in-out;
+}
+
+nav ul li.logo img:hover {
+    transform: rotate(360deg);
+}
+
+/* ===== Button Styling ===== */
+
+button, .btn {
+    background: linear-gradient(45deg, #f71606, #c40000);
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+button:hover, .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #f71606;
+    background: linear-gradient(45deg, #ff3333, #cc0000);
+}
+
+/* ===== Table Styling ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1em;
+}
+
+/* ===== Form Styling ===== */
+
+.form-control, .form-select {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #f71606;
+    box-shadow: 0 0 10px #f71606;
+}
+
+/* Input Labels */
+label {
+    font-weight: bold;
+    color: #f71606;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* ===== Responsive Design ===== */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    nav ul li.logo img {
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+/* Progress Bar Styles */
+.progress-bar-container {
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #f71606;
+    text-align: center;
+    color: #e0e0e0;
+    line-height: 20px;
+    transition: width 0.3s ease-in-out;
+}

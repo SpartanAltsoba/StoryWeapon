@@ -1,0 +1,13 @@
+<!-- templates/500.html -->
+
+{% extends "layout.html" %}
+
+{% block title %}Server Error{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h1 class="display-4">500</h1>
+        <p class="lead">Internal Server Error. Something went wrong on our end.</p>
+        <a href="/" class="btn btn-primary">Go to Home</a>
+    </div>
+{% endblock %}

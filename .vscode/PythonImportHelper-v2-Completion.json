@@ -1,0 +1,1654 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TextIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer",
+        "description": "pdfminer",
+        "detail": "pdfminer",
+        "documentation": {}
+    },
+    {
+        "label": "PDFDocument",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFNoOutlines",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFXRefFallback",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFPage",
+        "importPath": "pdfminer.pdfpage",
+        "description": "pdfminer.pdfpage",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfpage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFParser",
+        "importPath": "pdfminer.pdfparser",
+        "description": "pdfminer.pdfparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfparser",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjectNotFound",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFStream",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjRef",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "resolve1",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "stream_value",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PSKeyword",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSLiteral",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "LIT",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "isnumber",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyIO",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer.high_level",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer.high_level",
+        "description": "pdfminer.high_level",
+        "detail": "pdfminer.high_level",
+        "documentation": {}
+    },
+    {
+        "label": "LAParams",
+        "importPath": "pdfminer.layout",
+        "description": "pdfminer.layout",
+        "isExtraImport": true,
+        "detail": "pdfminer.layout",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "search_csv_for_name",
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "isExtraImport": true,
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "search_pdf_by_ein",
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "isExtraImport": true,
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "process_pdfs",
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "isExtraImport": true,
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_parsed_files",
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "isExtraImport": true,
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "statement",
+        "importPath": "openai import OpenAI  # Updated",
+        "description": "openai import OpenAI  # Updated",
+        "isExtraImport": true,
+        "detail": "openai import OpenAI  # Updated",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "convert_from_path",
+        "importPath": "pdf2image",
+        "description": "pdf2image",
+        "isExtraImport": true,
+        "detail": "pdf2image",
+        "documentation": {}
+    },
+    {
+        "label": "pytesseract",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytesseract",
+        "description": "pytesseract",
+        "detail": "pytesseract",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDF2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_blueprint",
+        "importPath": "blueprints.dashboard",
+        "description": "blueprints.dashboard",
+        "isExtraImport": true,
+        "detail": "blueprints.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "search_blueprint",
+        "importPath": "blueprints.search",
+        "description": "blueprints.search",
+        "isExtraImport": true,
+        "detail": "blueprints.search",
+        "documentation": {}
+    },
+    {
+        "label": "gpt_handler_blueprint",
+        "importPath": "blueprints.gpt_handler",
+        "description": "blueprints.gpt_handler",
+        "isExtraImport": true,
+        "detail": "blueprints.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "civic_info_blueprint",
+        "importPath": "blueprints.civic_info",
+        "description": "blueprints.civic_info",
+        "isExtraImport": true,
+        "detail": "blueprints.civic_info",
+        "documentation": {}
+    },
+    {
+        "label": "fec_blueprint",
+        "importPath": "blueprints.fec",
+        "description": "blueprints.fec",
+        "isExtraImport": true,
+        "detail": "blueprints.fec",
+        "documentation": {}
+    },
+    {
+        "label": "edgar_blueprint",
+        "importPath": "blueprints.edgar",
+        "description": "blueprints.edgar",
+        "isExtraImport": true,
+        "detail": "blueprints.edgar",
+        "documentation": {}
+    },
+    {
+        "label": "court_listener_blueprint",
+        "importPath": "blueprints.court_listener",
+        "description": "blueprints.court_listener",
+        "isExtraImport": true,
+        "detail": "blueprints.court_listener",
+        "documentation": {}
+    },
+    {
+        "label": "lobby_view_blueprint",
+        "importPath": "blueprints.lobby_view",
+        "description": "blueprints.lobby_view",
+        "isExtraImport": true,
+        "detail": "blueprints.lobby_view",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "RotatingFileHandler",
+        "importPath": "logging.handlers",
+        "description": "logging.handlers",
+        "isExtraImport": true,
+        "detail": "logging.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpxml",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write('<dict size=\"%d\">\\n' % len(obj))\n        for (k, v) in obj.items():\n            out.write(\"<key>%s</key>\\n\" % k)\n            out.write(\"<value>\")\n            dumpxml(out, v)",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumptrailers",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def dumptrailers(\n    out: TextIO, doc: PDFDocument, show_fallback_xref: bool = False\n) -> None:\n    for xref in doc.xrefs:\n        if not isinstance(xref, PDFXRefFallback) or show_fallback_xref:\n            out.write(\"<trailer>\\n\")\n            dumpxml(out, xref.get_trailer())\n            out.write(\"\\n</trailer>\\n\\n\")\n    no_xrefs = all(isinstance(xref, PDFXRefFallback) for xref in doc.xrefs)\n    if no_xrefs and not show_fallback_xref:",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpallobjs",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpallobjs(\n    out: TextIO,\n    doc: PDFDocument,\n    codec: Optional[str] = None,\n    show_fallback_xref: bool = False,\n) -> None:\n    visited = set()\n    out.write(\"<pdf>\")\n    for xref in doc.xrefs:\n        for objid in xref.get_objids():",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpoutline",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpoutline(\n    outfp: TextIO,\n    fname: str,\n    objids: Any,\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n) -> None:",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "extractembedded",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename\n            )",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumppdf",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def dumppdf(\n    outfp: TextIO,\n    fname: str,\n    objids: Iterable[int],\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n    show_fallback_xref: bool = False,",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def create_parser() -> ArgumentParser:\n    parser = ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "def main(argv: Optional[List[str]] = None) -> None:\n    parser = create_parser()\n    args = parser.parse_args(args=argv)\n    if args.debug:\n        logging.getLogger().setLevel(logging.DEBUG)\n    if args.outfile == \"-\":\n        outfp = sys.stdout\n    else:\n        outfp = open(args.outfile, \"w\")\n    if args.objects:",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "ESC_PAT",
+        "kind": 5,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "ESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_FILESPEC",
+        "kind": 5,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_FILESPEC = LIT(\"Filespec\")\nLITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_EMBEDDEDFILE",
+        "kind": 5,
+        "importPath": ".venv.Scripts.dumppdf",
+        "description": ".venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename",
+        "detail": ".venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "float_or_disabled",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "def float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "def extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",\n    laparams: Optional[LAParams] = None,\n    output_type: str = \"text\",\n    codec: str = \"utf-8\",\n    strip_control: bool = False,\n    maxpages: int = 0,\n    page_numbers: Optional[Container[int]] = None,\n    password: str = \"\",",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "def create_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "def parse_args(args: Optional[List[str]]) -> argparse.Namespace:\n    parsed_args = create_parser().parse_args(args=args)\n    # Propagate parsed layout parameters to LAParams object\n    if parsed_args.no_laparams:\n        parsed_args.laparams = None\n    else:\n        parsed_args.laparams = LAParams(\n            line_overlap=parsed_args.line_overlap,\n            char_margin=parsed_args.char_margin,\n            line_margin=parsed_args.line_margin,",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "def main(args: Optional[List[str]] = None) -> int:\n    parsed_args = parse_args(args)\n    outfp = extract_text(**vars(parsed_args))\n    outfp.close()\n    return 0\nif __name__ == \"__main__\":\n    sys.exit(main())",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_TYPES",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pdf2txt",
+        "description": ".venv.Scripts.pdf2txt",
+        "peekOfCode": "OUTPUT_TYPES = ((\".htm\", \"html\"), (\".html\", \"html\"), (\".xml\", \"xml\"), (\".tag\", \"tag\"))\ndef float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],",
+        "detail": ".venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.civic_info.civic_info",
+        "description": "blueprints.civic_info.civic_info",
+        "peekOfCode": "def home():\n    logger.info(\"Civic Info home page accessed\")\n    return \"This is the civic_info home page.\"",
+        "detail": "blueprints.civic_info.civic_info",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.civic_info.civic_info",
+        "description": "blueprints.civic_info.civic_info",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\ncivic_info_blueprint = Blueprint('civic_info', __name__)\n@civic_info_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Civic Info home page accessed\")\n    return \"This is the civic_info home page.\"",
+        "detail": "blueprints.civic_info.civic_info",
+        "documentation": {}
+    },
+    {
+        "label": "civic_info_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.civic_info.civic_info",
+        "description": "blueprints.civic_info.civic_info",
+        "peekOfCode": "civic_info_blueprint = Blueprint('civic_info', __name__)\n@civic_info_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Civic Info home page accessed\")\n    return \"This is the civic_info home page.\"",
+        "detail": "blueprints.civic_info.civic_info",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.court_listener.court_listener",
+        "description": "blueprints.court_listener.court_listener",
+        "peekOfCode": "def home():\n    logger.info(\"Court Listener home page accessed\")\n    return \"This is the court_listener home page.\"",
+        "detail": "blueprints.court_listener.court_listener",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.court_listener.court_listener",
+        "description": "blueprints.court_listener.court_listener",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\ncourt_listener_blueprint = Blueprint('court_listener', __name__)\n@court_listener_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Court Listener home page accessed\")\n    return \"This is the court_listener home page.\"",
+        "detail": "blueprints.court_listener.court_listener",
+        "documentation": {}
+    },
+    {
+        "label": "court_listener_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.court_listener.court_listener",
+        "description": "blueprints.court_listener.court_listener",
+        "peekOfCode": "court_listener_blueprint = Blueprint('court_listener', __name__)\n@court_listener_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Court Listener home page accessed\")\n    return \"This is the court_listener home page.\"",
+        "detail": "blueprints.court_listener.court_listener",
+        "documentation": {}
+    },
+    {
+        "label": "get_dashboard_data",
+        "kind": 2,
+        "importPath": "blueprints.dashboard.dashboard",
+        "description": "blueprints.dashboard.dashboard",
+        "peekOfCode": "def get_dashboard_data():\n    try:\n        with open(Config.JSON_RESULTS, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n        return jsonify({'data': data})\n    except Exception as e:\n        logger.error(f\"Error loading dashboard data: {e}\")\n        return jsonify({'error': 'Failed to load data'}), 500",
+        "detail": "blueprints.dashboard.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.dashboard.dashboard",
+        "description": "blueprints.dashboard.dashboard",
+        "peekOfCode": "dashboard_blueprint = Blueprint('dashboard', __name__)\nlogger = logging.getLogger(__name__)\n@dashboard_blueprint.route('/data', methods=['GET'])\ndef get_dashboard_data():\n    try:\n        with open(Config.JSON_RESULTS, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n        return jsonify({'data': data})\n    except Exception as e:\n        logger.error(f\"Error loading dashboard data: {e}\")",
+        "detail": "blueprints.dashboard.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.dashboard.dashboard",
+        "description": "blueprints.dashboard.dashboard",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@dashboard_blueprint.route('/data', methods=['GET'])\ndef get_dashboard_data():\n    try:\n        with open(Config.JSON_RESULTS, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n        return jsonify({'data': data})\n    except Exception as e:\n        logger.error(f\"Error loading dashboard data: {e}\")\n        return jsonify({'error': 'Failed to load data'}), 500",
+        "detail": "blueprints.dashboard.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.edgar.edgar",
+        "description": "blueprints.edgar.edgar",
+        "peekOfCode": "def home():\n    logger.info(\"EDGAR home page accessed\")\n    return \"This is the edgar home page.\"",
+        "detail": "blueprints.edgar.edgar",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.edgar.edgar",
+        "description": "blueprints.edgar.edgar",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\nedgar_blueprint = Blueprint('edgar', __name__)\n@edgar_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"EDGAR home page accessed\")\n    return \"This is the edgar home page.\"",
+        "detail": "blueprints.edgar.edgar",
+        "documentation": {}
+    },
+    {
+        "label": "edgar_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.edgar.edgar",
+        "description": "blueprints.edgar.edgar",
+        "peekOfCode": "edgar_blueprint = Blueprint('edgar', __name__)\n@edgar_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"EDGAR home page accessed\")\n    return \"This is the edgar home page.\"",
+        "detail": "blueprints.edgar.edgar",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.fec.fec",
+        "description": "blueprints.fec.fec",
+        "peekOfCode": "def home():\n    logger.info(\"FEC home page accessed\")\n    return \"This is the fec home page.\"",
+        "detail": "blueprints.fec.fec",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.fec.fec",
+        "description": "blueprints.fec.fec",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\nfec_blueprint = Blueprint('fec', __name__)\n@fec_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"FEC home page accessed\")\n    return \"This is the fec home page.\"",
+        "detail": "blueprints.fec.fec",
+        "documentation": {}
+    },
+    {
+        "label": "fec_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.fec.fec",
+        "description": "blueprints.fec.fec",
+        "peekOfCode": "fec_blueprint = Blueprint('fec', __name__)\n@fec_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"FEC home page accessed\")\n    return \"This is the fec home page.\"",
+        "detail": "blueprints.fec.fec",
+        "documentation": {}
+    },
+    {
+        "label": "gpt_main",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def gpt_main():\n    try:\n        # Call your main GPT processing function\n        extracted_data = main()\n        if extracted_data:\n            # Return the extracted data as JSON\n            return jsonify({\n                'success': True,\n                'message': 'Key information extracted successfully.',\n                'extracted_data': extracted_data,",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def main():\n    # Load the schema, prompts, and output requirements schema\n    schema = load_yaml_file(Config.SCHEMA_PATH)\n    prompts = load_yaml_file(Config.PROMPTS_PATH)\n    output_requirements = load_yaml_file(Config.OUTPUT_REQUIREMENTS_SCHEMA)\n    if not schema or not prompts or not output_requirements:\n        logger.error(\"Schema, prompts, or output requirements could not be loaded. Exiting.\")\n        return None\n    # Get list of text files in the directory\n    parsed_text_dir = Config.PARSED_TEXT_DIR  # Ensure this is correctly set in Config",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "load_yaml_file",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def load_yaml_file(file_path):\n    \"\"\"\n    Loads a YAML file.\n    Args:\n        file_path (str): Path to the YAML file.\n    Returns:\n        dict: The YAML content as a dictionary.\n    \"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_extracted_data",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def prepare_extracted_data(json_data):\n    \"\"\"\n    Prepares the extracted data for the frontend.\n    Args:\n        json_data (dict): The JSON data extracted by GPT.\n    Returns:\n        list: A list of dictionaries containing the data to display.\n    \"\"\"\n    try:\n        data_list = []",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "clear_output_file",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def clear_output_file(file_path):\n    \"\"\"\n    Deletes the specified JSON file if it exists.\n    Args:\n        file_path (str): Path to the JSON file.\n    \"\"\"\n    try:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            logger.info(f\"Deleted old JSON file: {file_path}\")",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_files_in_directory",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def get_text_files_in_directory(directory_path):\n    \"\"\"\n    Gets a list of all text files in the specified directory.\n    Args:\n        directory_path (str): Path to the directory containing text files.\n    Returns:\n        list: List of text file paths.\n    \"\"\"\n    try:\n        pattern = os.path.join(directory_path, '*.txt')",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "read_text_file",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def read_text_file(file_path):\n    \"\"\"\n    Reads the content of the text file containing Form 990 information.\n    Args:\n        file_path (str): Path to the text file.\n    Returns:\n        str: Content of the text file.\n    \"\"\"\n    try:\n        logger.debug(f\"Attempting to read file at: {file_path}\")",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "generate_prompt",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def generate_prompt(text, schema, prompts, output_requirements):\n    \"\"\"\n    Generates a prompt for the GPT model using the provided text, schema, prompts, and output requirements.\n    Args:\n        text (str): The text to be structured.\n        schema (dict): The YAML schema defining JSON structure.\n        prompts (dict): The prompts loaded from the prompts YAML file.\n        output_requirements (dict): Additional output requirements loaded from the output requirements YAML file.\n    Returns:\n        str: The complete prompt.",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "call_gpt_api",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def call_gpt_api(prompt):\n    \"\"\"\n    Calls the GPT API with the given prompt.\n    Args:\n        prompt (str): The prompt to send to the API.\n    Returns:\n        str: The API response text.\n    \"\"\"\n    try:\n        response = client.chat.completions.create(",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "parse_gpt_response",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def parse_gpt_response(response_text):\n    \"\"\"\n    Parses the GPT API response into JSON.\n    Args:\n        response_text (str): The raw response from GPT.\n    Returns:\n        dict: The structured JSON data.\n    \"\"\"\n    try:\n        json_data = json.loads(response_text)",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "save_json_data",
+        "kind": 2,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "def save_json_data(json_data, output_path):\n    \"\"\"\n    Saves the JSON data to a file.\n    Args:\n        json_data (dict): The JSON data to save.\n        output_path (str): The file path to save the JSON data.\n    \"\"\"\n    try:\n        # Ensure the directory exists\n        os.makedirs(os.path.dirname(output_path), exist_ok=True)",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__, log_file=Config.GPT_HANDLER_FILE)\nlogger.propagate = False\n# Create blueprint\ngpt_handler_blueprint = Blueprint('gpt_handler', __name__)\nload_dotenv()  # Load environment variables from .env file\nclient = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n@gpt_handler_blueprint.route('/', methods=['POST'])\n@log_function(logger)\ndef gpt_main():\n    try:",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "logger.propagate",
+        "kind": 5,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "logger.propagate = False\n# Create blueprint\ngpt_handler_blueprint = Blueprint('gpt_handler', __name__)\nload_dotenv()  # Load environment variables from .env file\nclient = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n@gpt_handler_blueprint.route('/', methods=['POST'])\n@log_function(logger)\ndef gpt_main():\n    try:\n        # Call your main GPT processing function",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "gpt_handler_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "gpt_handler_blueprint = Blueprint('gpt_handler', __name__)\nload_dotenv()  # Load environment variables from .env file\nclient = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n@gpt_handler_blueprint.route('/', methods=['POST'])\n@log_function(logger)\ndef gpt_main():\n    try:\n        # Call your main GPT processing function\n        extracted_data = main()\n        if extracted_data:",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "blueprints.gpt_handler.gpt_handler",
+        "description": "blueprints.gpt_handler.gpt_handler",
+        "peekOfCode": "client = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n@gpt_handler_blueprint.route('/', methods=['POST'])\n@log_function(logger)\ndef gpt_main():\n    try:\n        # Call your main GPT processing function\n        extracted_data = main()\n        if extracted_data:\n            # Return the extracted data as JSON\n            return jsonify({",
+        "detail": "blueprints.gpt_handler.gpt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.lobby_handler.lobby_handler",
+        "description": "blueprints.lobby_handler.lobby_handler",
+        "peekOfCode": "def home():\n    return f'This is the lobby_handler home page.'",
+        "detail": "blueprints.lobby_handler.lobby_handler",
+        "documentation": {}
+    },
+    {
+        "label": "lobby_handler_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.lobby_handler.lobby_handler",
+        "description": "blueprints.lobby_handler.lobby_handler",
+        "peekOfCode": "lobby_handler_blueprint = Blueprint('lobby_handler', __name__)\n@lobby_handler_blueprint.route('/')\ndef home():\n    return f'This is the lobby_handler home page.'",
+        "detail": "blueprints.lobby_handler.lobby_handler",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "blueprints.lobby_view.lobby_view",
+        "description": "blueprints.lobby_view.lobby_view",
+        "peekOfCode": "def home():\n    logger.info(\"Lobby View home page accessed\")\n    return \"This is the lobby_view home page.\"",
+        "detail": "blueprints.lobby_view.lobby_view",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.lobby_view.lobby_view",
+        "description": "blueprints.lobby_view.lobby_view",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\nlobby_view_blueprint = Blueprint('lobby_view', __name__)\n@lobby_view_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Lobby View home page accessed\")\n    return \"This is the lobby_view home page.\"",
+        "detail": "blueprints.lobby_view.lobby_view",
+        "documentation": {}
+    },
+    {
+        "label": "lobby_view_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.lobby_view.lobby_view",
+        "description": "blueprints.lobby_view.lobby_view",
+        "peekOfCode": "lobby_view_blueprint = Blueprint('lobby_view', __name__)\n@lobby_view_blueprint.route('/')\n@log_function(logger)\ndef home():\n    logger.info(\"Lobby View home page accessed\")\n    return \"This is the lobby_view home page.\"",
+        "detail": "blueprints.lobby_view.lobby_view",
+        "documentation": {}
+    },
+    {
+        "label": "handle_search",
+        "kind": 2,
+        "importPath": "blueprints.search.search",
+        "description": "blueprints.search.search",
+        "peekOfCode": "def handle_search():\n    if request.method == 'GET':\n        logger.info(\"Accessed search home page.\")\n        return render_template('search.html')\n    elif request.method == 'POST':\n        logger.info(\"Received POST request for search.\")\n        try:\n            # Get JSON data from the request\n            data = request.get_json()\n            if not data:",
+        "detail": "blueprints.search.search",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "blueprints.search.search",
+        "description": "blueprints.search.search",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__, log_file=Config.SEARCH_LOG_FILE)\nlogger.propagate = False\n# Initialize the Search Blueprint\nsearch_blueprint = Blueprint('search', __name__, template_folder='templates')\n@search_blueprint.route('/', methods=['GET', 'POST'])\n@log_function(logger)\ndef handle_search():\n    if request.method == 'GET':\n        logger.info(\"Accessed search home page.\")\n        return render_template('search.html')",
+        "detail": "blueprints.search.search",
+        "documentation": {}
+    },
+    {
+        "label": "logger.propagate",
+        "kind": 5,
+        "importPath": "blueprints.search.search",
+        "description": "blueprints.search.search",
+        "peekOfCode": "logger.propagate = False\n# Initialize the Search Blueprint\nsearch_blueprint = Blueprint('search', __name__, template_folder='templates')\n@search_blueprint.route('/', methods=['GET', 'POST'])\n@log_function(logger)\ndef handle_search():\n    if request.method == 'GET':\n        logger.info(\"Accessed search home page.\")\n        return render_template('search.html')\n    elif request.method == 'POST':",
+        "detail": "blueprints.search.search",
+        "documentation": {}
+    },
+    {
+        "label": "search_blueprint",
+        "kind": 5,
+        "importPath": "blueprints.search.search",
+        "description": "blueprints.search.search",
+        "peekOfCode": "search_blueprint = Blueprint('search', __name__, template_folder='templates')\n@search_blueprint.route('/', methods=['GET', 'POST'])\n@log_function(logger)\ndef handle_search():\n    if request.method == 'GET':\n        logger.info(\"Accessed search home page.\")\n        return render_template('search.html')\n    elif request.method == 'POST':\n        logger.info(\"Received POST request for search.\")\n        try:",
+        "detail": "blueprints.search.search",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "test.openai_api",
+        "description": "test.openai_api",
+        "peekOfCode": "client = OpenAI(\n    api_key=os.getenv(\"OPENAI_API_KEY\")\n)\ntry:\n    # Create chat completion\n    chat_completion = client.chat.completions.create(\n        messages=[\n            {\n                \"role\": \"user\",\n                \"content\": \"Say this is a test\",",
+        "detail": "test.openai_api",
+        "documentation": {}
+    },
+    {
+        "label": "search_csv_for_name",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def search_csv_for_name(entity_name):\n    \"\"\"\n    Searches all CSV files in the Shared Entity Name Database (SEDB) directory\n    for the given entity_name in column B (index 1). Extracts the corresponding\n    EIN from column A (index 0).\n    \"\"\"\n    ein_list = []\n    try:\n        # Define the path to the SEDB directory\n        sedb_directory = Config.SEDB_FOLDER  # We'll define this in config.py",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "search_pdf_by_ein",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def search_pdf_by_ein(ein):\n    \"\"\"\n    Finds PDF files that match the given EIN (first 9 digits of the filename)\n    and copies them to the shared_entity_990 directory.\n    \"\"\"\n    matched_pdfs = []\n    try:\n        pdf_root = Config.PDF_FOLDER\n        logger.info(f\"Searching PDFs for EIN: {ein}\")\n        # Walk through all subdirectories in the PDF_FOLDER",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "wait_for_pdf",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def wait_for_pdf(timeout=60):\n    start_time = time.time()\n    while time.time() - start_time < timeout:\n        pdf_files = glob.glob(os.path.join(Config.SHARED_ENTITY_990, '*.pdf'))\n        if pdf_files:\n            return pdf_files[0]  # Return the first PDF found\n        time.sleep(1)  # Wait for 1 second before checking again\n    return None  # Return None if no PDF is found within the timeout period\n@log_function(logger)\ndef process_pdfs():",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "process_pdfs",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def process_pdfs():\n    \"\"\"\n    Processes all PDFs in the SHARED_ENTITY_990 directory.\n    Uses both direct text extraction and OCR for parsing.\n    \"\"\"\n    pdf_files = glob.glob(os.path.join(Config.SHARED_ENTITY_990, '*.pdf'))\n    logger.info(f\"Found {len(pdf_files)} PDF files in {Config.SHARED_ENTITY_990}\")\n    for pdf_path in pdf_files:\n        try:\n            logger.info(f\"Processing PDF: {os.path.basename(pdf_path)}\")",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf_direct",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def extract_text_from_pdf_direct(pdf_path):\n    \"\"\"\n    Extracts text from a PDF using PyPDF2 (direct text extraction).\n    \"\"\"\n    try:\n        logger.info(f\"Extracting text directly from PDF: {os.path.basename(pdf_path)}\")\n        reader = PyPDF2.PdfReader(pdf_path)\n        full_text = []\n        for page_number, page in enumerate(reader.pages, start=1):\n            text = page.extract_text()",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf_ocr",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def extract_text_from_pdf_ocr(pdf_path):\n    \"\"\"\n    Extracts text from a PDF using OCR (pytesseract).\n    \"\"\"\n    try:\n        logger.info(f\"Converting PDF to images for OCR: {os.path.basename(pdf_path)}\")\n        images = convert_from_path(pdf_path, dpi=300)\n        full_text = []\n        for page_number, image in enumerate(images, start=1):\n            text = pytesseract.image_to_string(image)",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "clean_batch_txt",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def clean_batch_txt(raw_text):\n    \"\"\"\n    Cleans the raw text extracted from the PDF.\n    \"\"\"\n    try:\n        logger.info(\"Cleaning extracted text...\")\n        # Preserve headings and key naming conventions\n        # Remove unnecessary whitespace but keep line breaks\n        cleaned_text = re.sub(r'[ \\t]+', ' ', raw_text)\n        # Normalize line endings",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_parsed_files",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def get_parsed_files(directory):\n    \"\"\"\n    Get a list of parsed text files from the specified directory.\n    \"\"\"\n    try:\n        if not os.path.exists(directory):\n            logger.error(f\"Directory does not exist: {directory}\")\n            return []\n        # Filter for files with a .txt extension\n        files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "save_text_to_file",
+        "kind": 2,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "def save_text_to_file(cleaned_text, output_path):\n    \"\"\"\n    Saves cleaned text to a .txt file.\n    \"\"\"\n    try:\n        os.makedirs(os.path.dirname(output_path), exist_ok=True)\n        with open(output_path, 'w', encoding='utf-8') as f:\n            f.write(cleaned_text)\n        logger.info(f\"Saved cleaned text to {output_path}\")\n    except Exception as e:",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__, log_file=Config.UTILS_LOG_FILE)\nlogger.propagate = False\n@log_function(logger)\ndef search_csv_for_name(entity_name):\n    \"\"\"\n    Searches all CSV files in the Shared Entity Name Database (SEDB) directory\n    for the given entity_name in column B (index 1). Extracts the corresponding\n    EIN from column A (index 0).\n    \"\"\"\n    ein_list = []",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "logger.propagate",
+        "kind": 5,
+        "importPath": "utils.utils_functions",
+        "description": "utils.utils_functions",
+        "peekOfCode": "logger.propagate = False\n@log_function(logger)\ndef search_csv_for_name(entity_name):\n    \"\"\"\n    Searches all CSV files in the Shared Entity Name Database (SEDB) directory\n    for the given entity_name in column B (index 1). Extracts the corresponding\n    EIN from column A (index 0).\n    \"\"\"\n    ein_list = []\n    try:",
+        "detail": "utils.utils_functions",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    logger.info(\"Home page accessed\")\n    return render_template('index.html')  # Ensure 'index.html' exists in templates/\n# Unified 404 Error Handler with logging\n@app.errorhandler(404)\n@log_function(logger)\ndef not_found_error(error):\n    logger.error(f'404 Error: {error} - Path: {request.path}')\n    return render_template('404.html'), 404\n# 500 Internal Server Error Handler with logging",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "not_found_error",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def not_found_error(error):\n    logger.error(f'404 Error: {error} - Path: {request.path}')\n    return render_template('404.html'), 404\n# 500 Internal Server Error Handler with logging\n@app.errorhandler(500)\n@log_function(logger)\ndef internal_error(error):\n    logger.error(f'500 Error: {error} - Path: {request.path} - Method: {request.method}', exc_info=True)\n    return render_template('500.html'), 500\n# Ensure required directories exist before running the app",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "internal_error",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def internal_error(error):\n    logger.error(f'500 Error: {error} - Path: {request.path} - Method: {request.method}', exc_info=True)\n    return render_template('500.html'), 500\n# Ensure required directories exist before running the app\nrequired_dirs = [\n    Config.CSV_FOLDER,\n    Config.PDF_FOLDER,\n    Config.SHARED_ENTITY_990,\n    Config.PARSED_TEXT_DIR,\n    Config.JSON_RESULTS,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "logger = CustomLogger.get_logger(__name__)\n# Initialize Flask app\napp = Flask(__name__)\napp.config.from_object(Config)\n# Register Blueprints\napp.register_blueprint(search_blueprint, url_prefix='/search')\napp.register_blueprint(dashboard_blueprint, url_prefix='/dashboard')\napp.register_blueprint(gpt_handler_blueprint, url_prefix='/gpt_handler')\napp.register_blueprint(civic_info_blueprint, url_prefix='/civic_info')\napp.register_blueprint(fec_blueprint, url_prefix='/fec')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(Config)\n# Register Blueprints\napp.register_blueprint(search_blueprint, url_prefix='/search')\napp.register_blueprint(dashboard_blueprint, url_prefix='/dashboard')\napp.register_blueprint(gpt_handler_blueprint, url_prefix='/gpt_handler')\napp.register_blueprint(civic_info_blueprint, url_prefix='/civic_info')\napp.register_blueprint(fec_blueprint, url_prefix='/fec')\napp.register_blueprint(edgar_blueprint, url_prefix='/edgar')\napp.register_blueprint(court_listener_blueprint, url_prefix='/court_listener')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "required_dirs",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "required_dirs = [\n    Config.CSV_FOLDER,\n    Config.PDF_FOLDER,\n    Config.SHARED_ENTITY_990,\n    Config.PARSED_TEXT_DIR,\n    Config.JSON_RESULTS,\n    Config.CLEANED_BATCHED_DIR,\n    os.path.dirname(Config.SCHEMA_PATH),\n    os.path.dirname(Config.LOG_FILE),\n]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLogger",
+        "kind": 6,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "class CustomLogger:\n    @staticmethod\n    def get_logger(name, log_file=None):\n        logger = logging.getLogger(name)\n        logger.setLevel(logging.DEBUG)\n        # If a log file is not provided, use the default from Config\n        if not log_file:\n            from config import Config\n            log_file = Config.LOG_FILE\n        # Check if handlers already exist to prevent duplicate logs",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "log_function",
+        "kind": 2,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "def log_function(logger):\n    def decorator(func):\n        @wraps(func)\n        def wrapper(*args, **kwargs):\n            logger.debug(f\"Entering function: {func.__name__}\")\n            result = func(*args, **kwargs)\n            logger.debug(f\"Exiting function: {func.__name__}\")\n            return result\n        return wrapper\n    return decorator",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config:\n    # General Config\n    SECRET_KEY = os.getenv('FLASK_SECRET_KEY', 'default_secret_key')\n    DEBUG = True  # Set to False in production\n    # API Keys\n    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')\n    GOOGLE_SEARCH_API_KEY = os.getenv('GOOGLE_SEARCH_API_KEY')\n    GOOGLE_SEARCH_ENGINE_ID = os.getenv('GOOGLE_SEARCH_ENGINE_ID')\n    FEC_API_KEY = os.getenv('FEC_API_KEY')\n    EDGAR_API_KEY = os.getenv('EDGAR_API_KEY')",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# Load environment variables from .env file\nload_dotenv(os.path.join(basedir, '.env'))\nclass Config:\n    # General Config\n    SECRET_KEY = os.getenv('FLASK_SECRET_KEY', 'default_secret_key')\n    DEBUG = True  # Set to False in production\n    # API Keys\n    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')\n    GOOGLE_SEARCH_API_KEY = os.getenv('GOOGLE_SEARCH_API_KEY')",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "logs_dir",
+        "kind": 5,
+        "importPath": "logger",
+        "description": "logger",
+        "peekOfCode": "logs_dir = os.path.dirname(Config.LOG_FILE)\nos.makedirs(logs_dir, exist_ok=True)\n# Create a rotating file handler\nfile_handler = RotatingFileHandler(\n    Config.LOG_FILE,\n    maxBytes=5 * 1024 * 1024,  # 5MB\n    backupCount=5\n)\n# Define logging format\nformatter = logging.Formatter(",
+        "detail": "logger",
+        "documentation": {}
+    },
+    {
+        "label": "file_handler",
+        "kind": 5,
+        "importPath": "logger",
+        "description": "logger",
+        "peekOfCode": "file_handler = RotatingFileHandler(\n    Config.LOG_FILE,\n    maxBytes=5 * 1024 * 1024,  # 5MB\n    backupCount=5\n)\n# Define logging format\nformatter = logging.Formatter(\n    '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'\n)\nfile_handler.setFormatter(formatter)",
+        "detail": "logger",
+        "documentation": {}
+    },
+    {
+        "label": "formatter",
+        "kind": 5,
+        "importPath": "logger",
+        "description": "logger",
+        "peekOfCode": "formatter = logging.Formatter(\n    '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'\n)\nfile_handler.setFormatter(formatter)\n# Get the global logger\nlogger = logging.getLogger('app_logger')\nlogger.setLevel(logging.DEBUG)\n# Prevent adding multiple handlers to the logger\nif not logger.handlers:\n    # Create console handler",
+        "detail": "logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "logger",
+        "description": "logger",
+        "peekOfCode": "logger = logging.getLogger('app_logger')\nlogger.setLevel(logging.DEBUG)\n# Prevent adding multiple handlers to the logger\nif not logger.handlers:\n    # Create console handler\n    console_handler = logging.StreamHandler()\n    console_handler.setLevel(logging.DEBUG)\n    console_formatter = logging.Formatter(\n        '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'\n    )",
+        "detail": "logger",
+        "documentation": {}
+    }
+]

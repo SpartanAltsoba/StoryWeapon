@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data directories (if you don't want to track them)
+data/json_results/
+data/csv/
+data/pdfs/
+data/shared_entity_990/
+data/parsed_text/
+data/cleaned_batched/

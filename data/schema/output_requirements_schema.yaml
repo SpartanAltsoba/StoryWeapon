@@ -1,0 +1,248 @@
+irs_990_processing:
+  output_requirements: |
+    ### JSON Specifications:
+    - Generate explicit JSON data structures tailored for visualization or JavaScript use, as indicated by the YAML instructions.
+    - Create a **detailed analysis report** in JSON format focusing on detected anomalies or irregularities.
+
+    **Important Note**: The output must strictly adhere to the predefined schemas and should not contain supplementary text, markdown, or annotations.
+
+  steps:
+  - step: "Receive and process the provided IRS Form 990 text."
+    details:
+    - "Initial formatting and normalization."
+    - "Validate the consistency of the data."
+  - step: "Use the YAML configuration for field-specific extraction."
+    details:
+    - "Extract and label each section's relevant data in JSON."
+  - step: "Perform organizational and financial analysis."
+    details:
+    - "Prepare data for JavaScript visualization components."
+  - step: "Advanced analysis and flagging."
+    details:
+    - "Identify concerns for board compensation, large grants, and transaction outliers."
+  - step: "Generate output strictly in JSON according to the YAML schema."
+    details:
+    - "Ensure no extra text outside the JSON block."
+
+  output_format:
+  - "Data Extraction: Output in JSON strictly following the schema provided."
+  - "Analysis Summary: Separate JSON structure summarizing findings from advanced analyses or any observed anomalies."
+  - "Visualization Preparation Data: JSON format to reflect visualization requirements such as graphs and visual summaries."
+
+  examples:
+    example_input: |
+      ### Example Input (IRS 990 text fragment)
+      - [Placeholder for a paragraph from Form 990]
+
+    example_output: |
+      ### Example Output (JSON)
+      ```json
+      {
+        "general_info": {
+          "ein": "123456789",
+          "name": "Charitable Foundation Example",
+          "tax_year": "2020",
+          "gross_receipts": 5000000
+        },
+        "financial_data": {
+          "total_revenue": 4500000,
+          "total_expenses": 4300000,
+          "net_assets": {
+            "start_of_year": 1000000,
+            "end_of_year": 1200000
+          }
+        },
+        ...
+      }
+      ```
+
+    note: "Larger examples should extract full datasets across multiple categories, demonstrating linkages within the data."
+
+  notes: |
+    - Pay close attention to potential ambiguities or information overlaps in Form 990.
+    - Outputs must be entirely compliant with field names and types specified in the YAML schema.
+    - When assessing relationships or compensation, look for cues indicating cross-involvement or excessive control that might hint at conflicts.
+    - Proper syntax compliance is essential; run checks for permissible special characters and reference formats.
+
+  gpt_990_parser:
+    description: >
+      This YAML configuration instructs the GPT model to parse IRS Form 990 data, extract specific financial and organizational information, and perform advanced analyses to detect potential red flags. The model should normalize text, identify key sections (e.g., Parts, Schedules), and extract data contextually. The extracted data will be structured into a predefined JSON schema suitable for dynamically populating JavaScript files on your website. Analyses such as visualizations, network analysis, and red flag detection will be conducted to identify areas of concern within the NGO's operations.
+
+    normalization: |
+      1. Remove formatting artifacts (e.g., special characters, excessive line breaks).
+      2. Standardize headers like "Part VII" or "Schedule A" to ensure consistency.
+      3. Merge fragmented text into coherent paragraphs for easier context understanding.
+
+    instructions: |
+      You are an expert in parsing IRS Form 990 data and performing comprehensive financial and organizational analyses. Your tasks are as follows:
+
+      1. **Data Extraction:**
+         - Extract specific information from the provided parsed text based on the outlined sections and fields.
+         - Structure the extracted data into a JSON format adhering strictly to the provided YAML schema.
+         - Ensure all numerical fields are correctly formatted. If a value is missing, use `0` for numerical fields or `null` where appropriate.
+
+      2. **Advanced Analysis:**
+         - **Visualization Data Preparation:**
+           - Prepare JSON data structures suitable for creating visual representations of financial trends (e.g., revenue vs. expenses over time) using JavaScript.
+         - **Network Analysis Data:**
+           - Analyze relationships between related entities to identify potential conflicts of interest or excessive interconnections.
+           - Prepare JSON data structures suitable for visualizing these relationships using network graphs in JavaScript.
+         - **Red Flag Detection:**
+           - Identify unusual compensation amounts for board members and key employees.
+           - Detect high concentrations of grants from single contributors or to single recipients.
+           - Highlight any large or unusual transactions with interested persons.
+           - Summarize overall financial health based on the balance between assets, liabilities, and net assets.
+           - Detect any other indicators that could suggest irregularities or areas requiring further investigation.
+
+      3. **Output Requirements:**
+         - **JSON Data:**
+           - Output the structured JSON data as per the schema without any additional text, explanations, or markdown.
+         - **Analysis Summary:**
+           - Provide a separate JSON section detailing the findings from the advanced analyses, including any detected red flags or areas requiring further investigation.
+         - **Visualization Data:**
+           - Include JSON data structures necessary for dynamically populating JavaScript visualizations based on the extracted data and analyses.
+
+      **Important Constraints:**
+      - **Output Exclusivity:** Output JSON data for the data extraction, analysis summary, and visualization data. Do not include any other text, comments, or explanations.
+      - **Formatting:** Ensure that all outputs are properly formatted and free of syntax errors.
+      - **Tools Leeway:** Utilize all available tools and your analytical insight to perform the required data structuring for later analysis.
+
+    schema:
+      general_info:
+        ein: "" # Employer Identification Number
+        name: "" # Organization Name
+        tax_year: "" # Filing Year
+        gross_receipts: 0 # Total Gross Receipts
+
+      financial_data:
+        total_revenue: 0
+        total_expenses: 0
+        net_assets:
+          start_of_year: 0 # Net assets at start of year
+          end_of_year: 0 # Net assets at end of year
+
+      board_members:
+      - name: "" # Name of the board member
+        title: "" # Title/Role
+        compensation: 0 # Compensation in USD
+
+      grants:
+        paid:
+        - recipient: "" # Name of recipient
+          amount: 0 # Amount of the grant
+          purpose: "" # Purpose of the grant
+        received:
+        - source: "" # Source of the grant
+          amount: 0 # Amount of the grant
+          purpose: "" # Purpose of the grant
+
+      related_entities:
+      - name: "" # Name of related organization
+        ein: "" # EIN of related organization
+        relationship: "" # Type of relationship (e.g., controlled entity)
+        transactions:
+        - type: "" # Type of transaction
+          amount: 0 # Amount involved
+
+      lobbying_data:
+        grassroots_lobbying:
+          amount: 0
+          nontaxable_amount: 0
+        direct_lobbying:
+          amount: 0
+          nontaxable_amount: 0
+        total_lobbying:
+          amount: 0
+          excess_lobbying: 0
+
+      visualization_data:
+        network_graph:
+          nodes:
+          - id: "" # Unique identifier for the node
+            label: "" # Label for the node
+            group: "" # Group or category the node belongs to
+          edges:
+          - from: "" # Source node ID
+            to: "" # Target node ID
+            relationship: "" # Description of the relationship
+        bar_chart:
+          revenue_vs_expenses:
+          - year: "" # Tax year
+            total_revenue: 0
+            total_expenses: 0
+          assets_over_time:
+          - year: "" # Tax year
+            net_assets: 0
+
+    sections:
+    - part_i:
+        keywords: [ "Gross Receipts", "EIN", "Primary Purpose" ]
+        instructions: >
+          Extract general information like organization name, EIN, gross receipts, and the primary purpose of the entity.
+
+    - part_vii:
+        keywords: [ "Compensation", "Board Members", "Key Employees" ]
+        instructions: >
+          Locate board members and key employees listed under Part VII. Extract their names, titles, and reported compensation.
+
+    - part_ix:
+        keywords: [ "Total Expenses", "Functional Expenses", "Revenue Sources" ]
+        instructions: >
+          Focus on revenue and expense breakdowns. Include line items for total revenue and expenses where listed under Part IX.
+
+    - schedule_a:
+        keywords: [ "Public Support", "Grants Received", "Contributions" ]
+        instructions: >
+          Look for Schedule A to identify contributions and grants received. Extract the donor/source names, amounts, and purposes of grants.
+
+    - schedule_b:
+        keywords: [ "Major Contributors", "Amount Received" ]
+        instructions: >
+          Identify major contributors listed under Schedule B. Match their names to amounts contributed.
+
+    - schedule_r:
+        keywords: [ "Related Organizations", "EIN", "Affiliated Entities" ]
+        instructions: >
+          Focus on related entities listed in Schedule R. Extract the names, EINs, and relationships to the organization (e.g., "controlled by," "affiliated with").
+
+    - schedule_c:
+        keywords: [ "Lobbying Expenditures", "Direct Lobbying", "Grassroots Lobbying" ]
+        instructions: >
+          Locate lobbying expenditures in Schedule C. Extract totals for grassroots and direct lobbying, along with related entities or nontaxable amounts.
+
+    prompts:
+      batch_extraction_prompt: |
+        You are processing an IRS Form 990 document. Extract and return the following information in JSON format based on the provided YAML schema:
+
+        1. **Data Extraction**:
+           - General information: Organization name, EIN, tax year, and gross receipts.
+           - Financial data: Total revenue, total expenses, net assets at the start and end of the year.
+           - Board members: Names, titles, and compensations.
+           - Grants: Details of grants paid and received.
+           - Related entities: Names, EINs, relationships, and transactions.
+           - Lobbying data: Grassroots lobbying, direct lobbying, and total lobbying amounts.
+
+        2. **Visualization Data**:
+           - **Network Graph**:
+             - Nodes: Create nodes for entities (organizations, board members, related entities) with unique IDs and labels.
+             - Edges: Define relationships between entities with `from` and `to` node IDs and a description of the relationship.
+           - **Bar Chart Data**:
+             - Revenue vs. Expenses: Prepare an array with total revenue and total expenses for the tax year.
+             - Assets Over Time: If multiple years are available, include net assets for each year.
+
+        3. **Metadata**:
+           - Batch progress: Include current and total batches if processing multiple documents.
+
+        Ensure the output strictly follows the JSON structure defined in the YAML schema.
+
+      dashboard_population_prompt: |
+        Given the extracted data from IRS Form 990, return the following in JSON format for visualizing relationships and financial information:
+
+        1. **Visualization Data**:
+           - **Network Graph**:
+             - Nodes: Include all entities with their IDs, labels, and groups (e.g., "Board Member," "Related Entity").
+             - Edges: Specify relationships between entities using `from` and `to` IDs and relationship descriptions.
+           - **Bar Chart Data**:
+             - Prepare arrays or objects containing entity names, asset amounts, revenue amounts, and expenses suitable for JavaScript bar charts.
+
+        Ensure all outputs match the fields defined in the provided YAML schema.
