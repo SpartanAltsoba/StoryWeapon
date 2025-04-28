@@ -1,0 +1,4 @@
+cluster,category,phrase,count,type
+0,Trust Messaging,believe coincidences,80,bigram
+0,Action Messaging,fight fight fight,18,trigram
+0,Temporal Framing,future proves past,34,trigram

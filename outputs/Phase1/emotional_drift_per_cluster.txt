@@ -1,0 +1,48 @@
+EMOTIONAL DRIFT ANALYSIS PER CLUSTER
+==================================
+
+Analysis Date: 2025-04-28 06:05:52
+Total Posts Analyzed: 4735
+Number of Clusters: 2
+Emotional Categories: Fear, Hope, Action
+
+CLUSTER 0 (4731 posts, 145722 words)
+==================================================
+Category      Count  Per 1000 words    % of signals
+--------------------------------------------------
+Fear           2174           14.92          33.25%
+Hope           2434           16.70          37.23%
+Action         1930           13.24          29.52%
+--------------------------------------------------
+TOTAL          6538           44.87         100.00%
+
+Emotional Profile Characterization:
+- Dominant emotional category: Hope (37.2% of signals)
+- Fear-to-Hope ratio: 0.89 (Balanced fear-hope discourse)
+- Action intensity: 13.24 per 1000 words (High action orientation)
+
+CLUSTER 1 (4 posts, 18 words)
+==================================================
+Category      Count  Per 1000 words    % of signals
+--------------------------------------------------
+Fear              0            0.00           0.00%
+Hope              0            0.00           0.00%
+Action            0            0.00           0.00%
+--------------------------------------------------
+TOTAL             0            0.00         100.00%
+
+Emotional Profile Characterization:
+
+
+METHODOLOGY NOTES
+=================
+- URLs and common boilerplate were removed before analysis
+- Analysis focused on three emotional categories: Fear, Hope, and Action
+- Each category contains a predefined set of trigger words
+- 'Per 1000 words' normalizes for text length differences
+- '% of signals' shows the distribution of emotional signals within each cluster
+
+Word Sets Used:
+- Fear: control, dark, death, disaster, enemy, riot, shock, state, terror, warning...
+- Hope: liberate, light, prevail, rebuild, restore, safe, secure, truth, unity, win...
+- Action: challenge, learn, march, move, ready, research, resist, think, unite, wake...

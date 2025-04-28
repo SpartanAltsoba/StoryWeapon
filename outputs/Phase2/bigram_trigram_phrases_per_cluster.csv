@@ -1,0 +1,51 @@
+cluster,rank,phrase,count,type
+0,1,fake news,183,bigram
+0,2,youtube watch,162,bigram
+0,3,watch v,159,bigram
+0,4,foxnews politics,115,bigram
+0,5,united states,101,bigram
+0,6,god bless,83,bigram
+0,7,wwg1wga twitter,83,bigram
+0,8,believe coincidences,80,bigram
+0,9,central bank,69,bigram
+0,10,enjoy show,68,bigram
+0,11,logical thinking,68,bigram
+0,12,2018 08,66,bigram
+0,13,twitter realdonaldtrump,63,bigram
+0,14,realdonaldtrump status,63,bigram
+0,15,covid 19,58,bigram
+0,16,great awakening,53,bigram
+0,17,nat sec,50,bigram
+0,18,fbi doj,50,bigram
+0,19,news media,48,bigram
+0,20,clas 1,46,bigram
+0,21,1 99,46,bigram
+0,22,politics 2018,46,bigram
+0,23,expand thinking,43,bigram
+0,24,conspiracy theory,43,bigram
+0,25,people stupid,41,bigram
+0,1,youtube watch v,159,trigram
+0,2,twitter realdonaldtrump status,63,trigram
+0,3,fake news media,48,trigram
+0,4,foxnews politics 2018,38,trigram
+0,5,clas 1 99,35,trigram
+0,6,watch v g2qixxafxcq,35,trigram
+0,7,future proves past,34,trigram
+0,8,twitter hillaryclinton status,31,trigram
+0,9,united states america,29,trigram
+0,10,president united states,25,trigram
+0,11,boom boom boom,23,trigram
+0,12,go one go,21,trigram
+0,13,put full armor,21,trigram
+0,14,full armor god,21,trigram
+0,15,year old girl,21,trigram
+0,16,freedom vsa us,20,trigram
+0,17,ex aw conf,20,trigram
+0,18,central intelligence agency,20,trigram
+0,19,cia central intelligence,19,trigram
+0,20,intelligence agency c,19,trigram
+0,21,vsa us yes,18,trigram
+0,22,fight fight fight,18,trigram
+0,23,good enough impeach,18,trigram
+0,24,aw conf go,17,trigram
+0,25,conf go freedom,17,trigram

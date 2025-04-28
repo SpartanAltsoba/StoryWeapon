@@ -1,0 +1,139 @@
+BIGRAM AND TRIGRAM PHRASE ANALYSIS
+================================
+
+Analysis Date: 2025-04-28 06:10:03
+Number of Clusters: 2
+
+TOP BIGRAMS PER CLUSTER
+======================
+CLUSTER 0
+--------------------------------------------------
+Rank  Bigram                         Count     
+--------------------------------------------------
+1     fake news                      183       
+2     youtube watch                  162       
+3     watch v                        159       
+4     foxnews politics               115       
+5     united states                  101       
+6     god bless                      83        
+7     wwg1wga twitter                83        
+8     believe coincidences           80        
+9     central bank                   69        
+10    enjoy show                     68        
+11    logical thinking               68        
+12    2018 08                        66        
+13    twitter realdonaldtrump        63        
+14    realdonaldtrump status         63        
+15    covid 19                       58        
+16    great awakening                53        
+17    nat sec                        50        
+18    fbi doj                        50        
+19    news media                     48        
+20    clas 1                         46        
+21    1 99                           46        
+22    politics 2018                  46        
+23    expand thinking                43        
+24    conspiracy theory              43        
+25    people stupid                  41        
+
+CLUSTER 1
+--------------------------------------------------
+No significant bigrams found
+
+TOP TRIGRAMS PER CLUSTER
+=======================
+CLUSTER 0
+------------------------------------------------------------
+Rank  Trigram                                  Count     
+------------------------------------------------------------
+1     youtube watch v                          159       
+2     twitter realdonaldtrump status           63        
+3     fake news media                          48        
+4     foxnews politics 2018                    38        
+5     clas 1 99                                35        
+6     watch v g2qixxafxcq                      35        
+7     future proves past                       34        
+8     twitter hillaryclinton status            31        
+9     united states america                    29        
+10    president united states                  25        
+11    boom boom boom                           23        
+12    go one go                                21        
+13    put full armor                           21        
+14    full armor god                           21        
+15    year old girl                            21        
+16    freedom vsa us                           20        
+17    ex aw conf                               20        
+18    central intelligence agency              20        
+19    cia central intelligence                 19        
+20    intelligence agency c                    19        
+21    vsa us yes                               18        
+22    fight fight fight                        18        
+23    good enough impeach                      18        
+24    aw conf go                               17        
+25    conf go freedom                          17        
+
+CLUSTER 1
+------------------------------------------------------------
+No significant trigrams found
+
+NARRATIVE TEMPLATES
+==================
+Trust Messaging
+---------------
+Cluster 0:
+  Bigrams:
+    - believe coincidences (80)
+
+Fear Messaging
+--------------
+No templates found in this category
+
+Action Messaging
+----------------
+Cluster 0:
+  Trigrams:
+    - fight fight fight (18)
+
+Enemy Labeling
+--------------
+No templates found in this category
+
+Insider Signaling
+-----------------
+No templates found in this category
+
+Temporal Framing
+----------------
+Cluster 0:
+  Trigrams:
+    - future proves past (34)
+
+Exclusive Knowledge
+-------------------
+No templates found in this category
+
+CLUSTER NARRATIVE PROFILES
+=========================
+CLUSTER 0 NARRATIVE PROFILE
+--------------------------------------------------
+Narrative Categories by Prevalence:
+  Trust Messaging: 1 templates (33.3%)
+  Action Messaging: 1 templates (33.3%)
+  Temporal Framing: 1 templates (33.3%)
+
+Dominant Narrative Categories:
+  - Trust Messaging
+  - Action Messaging
+  - Temporal Framing
+
+Narrative Characterization:
+  - Strong emphasis on trust and belief in a plan or process
+  - Focus on mobilization and calls to action
+  - Emphasis on future events and temporal expectations
+
+METHODOLOGY NOTES
+================
+- Bigrams and trigrams were extracted after removing stopwords and cleaning text
+- Only phrases appearing at least twice in the corpus were included
+- Narrative templates were identified by matching phrases to predefined categories
+- Dominant narratives were defined as categories representing at least 20% of identified templates

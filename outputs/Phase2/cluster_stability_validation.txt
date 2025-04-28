@@ -1,0 +1,37 @@
+CLUSTER STABILITY CROSS-VALIDATION
+================================
+
+Analysis Date: 2025-04-28 06:12:28
+Number of Clusters: 2
+
+STABILITY METRICS
+================
+Adjusted Rand Index (ARI) Stability: 0.4527
+Normalized Stability Score: 0.3464
+Average Assignment Entropy: 0.4530
+
+STABILITY INTERPRETATION
+=======================
+Stability Level: MODERATE
+Interpretation: The clustering solution shows moderate stability across variations. While core cluster structures appear consistent, there is notable variation in boundary cases. The clusters likely represent real patterns, but should be interpreted with some caution.
+
+Normalized Stability: 0.3464 (scale: 0-1)
+Assignment Consistency: Instance assignments show low consistency across clustering variations, with substantial variability in how instances are grouped.
+
+ARI DISTRIBUTION SUMMARY
+=======================
+Mean ARI: 0.4527
+Median ARI: 0.6051
+Min ARI: -0.0731
+Max ARI: 1.0000
+Std Dev: 0.3054
+
+METHODOLOGY NOTES
+================
+- Stability was assessed by rerunning clustering with variations:
+  1. Feature perturbation: Adding small random noise to features
+  2. Feature subsampling: Using random subsets of features
+  3. Instance subsampling: Using random subsets of instances
+- Adjusted Rand Index (ARI) measures similarity between cluster assignments
+- Normalized stability is based on entropy of cluster assignments
+- Co-occurrence matrix shows how often pairs of instances cluster together

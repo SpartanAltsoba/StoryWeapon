@@ -1,0 +1,86 @@
+TIME SERIES EMOTIONAL DRIFT ANALYSIS
+====================================
+
+Analysis Date: 2025-04-28 06:10:02
+Number of Time Periods: 133
+Emotional Categories: Fear, Hope, Action
+
+EMOTIONAL PATTERNS OVER TIME
+===========================
+Cluster 0
+--------------------------------------------------
+Fear:
+  Mean: 17.55 per 1000 words
+  Std Dev: 23.25
+  Range: 0.00 - 250.00
+
+Hope:
+  Mean: 21.67 per 1000 words
+  Std Dev: 26.46
+  Range: 0.00 - 250.00
+
+Action:
+  Mean: 14.15 per 1000 words
+  Std Dev: 10.66
+  Range: 0.00 - 66.67
+
+Trend Analysis:
+  Fear: stable (correlation: 0.06)
+  Hope: stable (correlation: 0.00)
+  Action: stable (correlation: 0.03)
+
+Cluster 1
+--------------------------------------------------
+Fear:
+  Mean: 0.00 per 1000 words
+  Std Dev: 0.00
+  Range: 0.00 - 0.00
+
+Hope:
+  Mean: 0.00 per 1000 words
+  Std Dev: 0.00
+  Range: 0.00 - 0.00
+
+Action:
+  Mean: 0.00 per 1000 words
+  Std Dev: 0.00
+  Range: 0.00 - 0.00
+
+Trend Analysis:
+  Fear: stable (correlation: nan)
+  Hope: stable (correlation: nan)
+  Action: stable (correlation: nan)
+
+EMOTIONAL SURGE ANALYSIS
+========================
+Cluster 0
+--------------------------------------------------
+Fear: 4 surges detected
+  1. 2018-05-28: 71.43 per 1000 words
+  2. 2019-01-28: 62.50 per 1000 words
+  3. 2020-03-16: 250.00 per 1000 words
+  4. 2020-07-20: 52.63 per 1000 words
+Hope: 8 surges detected
+  1. 2017-12-25: 107.69 per 1000 words
+  2. 2018-05-28: 71.43 per 1000 words
+  3. 2018-08-20: 71.43 per 1000 words
+  4. 2019-06-24: 66.67 per 1000 words
+  5. 2020-01-13: 250.00 per 1000 words
+  6. 2020-08-24: 70.87 per 1000 words
+  7. 2020-11-02: 105.26 per 1000 words
+  8. 2022-11-14: 74.07 per 1000 words
+Action: 7 surges detected
+  1. 2019-06-24: 66.67 per 1000 words
+  2. 2020-01-27: 66.43 per 1000 words
+  3. 2020-04-13: 42.04 per 1000 words
+  4. 2020-10-26: 35.09 per 1000 words
+  5. 2022-06-20: 33.33 per 1000 words
+  6. 2022-10-31: 40.00 per 1000 words
+  7. 2022-11-07: 42.42 per 1000 words
+
+METHODOLOGY NOTES
+================
+- Analysis tracks emotional patterns over time periods
+- Surges are defined as values exceeding 1.5 standard deviations above the mean
+- Trends are determined by correlation between emotional signals and time
+- All emotion counts are normalized per 1000 words

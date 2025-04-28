@@ -1,0 +1,64 @@
+TOP WORDS PER CLUSTER ANALYSIS
+==========================
+
+Analysis Date: 2025-04-28 06:05:52
+Total Posts Analyzed: 4735
+Number of Clusters: 2
+Top Words Per Cluster: 25
+
+CLUSTER 0 (4731 posts)
+==============================
+Word               Count  Frequency %    p-value
+--------------------------------------------------
+https               2530       53.48%    0.1006 
+com                 2313       48.89%    0.1457 
+twitter             1274       26.93%    0.5157 
+www                 1160       24.52%    0.5767 
+status               973       20.57%    0.6902 
+news                 680       14.37%    0.9154 
+people               622       13.15%    0.9699 
+potus                608       12.85%    1.0000 
+think                543       11.48%    1.0000 
+control              410        8.67%    1.0000 
+public               353        7.46%    1.0000 
+fbi                  321        6.79%    1.0000 
+power                299        6.32%    1.0000 
+time                 290        6.13%    1.0000 
+fake                 281        5.94%    1.0000 
+media                278        5.88%    1.0000 
+trump                274        5.79%    1.0000 
+html                 255        5.39%    1.0000 
+narrative            254        5.37%    1.0000 
+know                 246        5.20%    1.0000 
+watch                244        5.16%    1.0000 
+world                241        5.09%    1.0000 
+gov                  241        5.09%    1.0000 
+politics             241        5.09%    1.0000 
+house                237        5.01%    1.0000 
+
+Significance levels: * p<0.05, ** p<0.01, *** p<0.001
+
+CLUSTER 1 (4 posts)
+==============================
+Word               Count  Frequency %    p-value
+--------------------------------------------------
+rogue                  1       25.00%    0.0068 **
+failure                1       25.00%    0.0005 ***
+potus                  1       25.00%    1.0000 
+decline                1       25.00%    0.0000 ***
+prepared               1       25.00%    0.0015 **
+costs                  1       25.00%    0.0000 ***
+count                  1       25.00%    0.0097 **
+beats                  1       25.00%    0.0000 ***
+pain                   1       25.00%    0.0019 **
+
+Significance levels: * p<0.05, ** p<0.01, *** p<0.001
+
+
+METHODOLOGY NOTES
+=================
+- Common English stopwords were excluded
+- Words shorter than 3 characters were excluded
+- Statistical significance was calculated using chi-square test
+- p-values represent the probability of observing the word distribution by chance
+- Lower p-values indicate stronger cluster association
